@@ -1,0 +1,85 @@
+/* ----- Global: Style CSS ----- */
+
+/* Body */
+body {
+    background: #2F3542;
+    background-image: linear-gradient(to right bottom, #3e152c, #411f38, #432843, #44324d, #453b57, #463d5c, #474062, #474267, #483e6a, #4b3a6b, #4e356d, #522f6d);
+    min-height: 100vh;
+  }
+  
+  
+  /* Custom Global: scrollbar */
+  
+  /* Width */
+  ::-webkit-scrollbar {
+    width: 10px !important;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 51, 255, 0) !important;
+    border-radius: 5px !important;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #767f88 !important;
+    border-radius: 5px !important;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #57606f !important;
+    border-radius: 5px !important;
+  }
+  
+  
+  /* Custom Global: scrollbar (small) */
+  #scrollbar-small::-webkit-scrollbar {
+    width: 6px !important;
+  }
+
+
+  
+/* Search/Filter Input (Table) */
+.search-table-input {
+  max-width: 250px !important;
+  height: 35px !important;
+  background: #565c6e53 !important;
+  border: 1px solid #747d8c8f !important;
+  border-radius: 50px !important;
+  outline: none !important;
+  box-shadow: none !important;
+  color: whitesmoke !important;
+  font-size: 13px !important;
+  letter-spacing: 1px !important;
+  transition: 0.3s ease-in-out !important;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset !important;
+}
+
+.search-table-input:hover {
+  border: 1px solid #a4b0be !important;
+}
+
+
+.search-table-input::placeholder {
+  color: #a4b0be !important;
+  font-size: 12px !important;
+}
+
+
+/* footer */
+
+footer {
+    padding: 50px;
+  }
+  
+  .footer-url {
+    text-decoration: none;
+    color: #57606f;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .footer-url:hover {
+    color: #a4b0be;
+  }
