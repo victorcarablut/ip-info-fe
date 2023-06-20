@@ -3,7 +3,7 @@
 /* Body */
 body {
     background: #2F3542;
-    background-image: linear-gradient(to right bottom, #3e152c, #411f38, #432843, #44324d, #453b57, #463d5c, #474062, #474267, #483e6a, #4b3a6b, #4e356d, #522f6d);
+    background-image: linear-gradient(to right bottom, #222121, #252323, #292425, #2c2628, #2f282b, #2f282d, #2e2830, #2b2933, #212834, #142833, #05272d, #002624);
     min-height: 100vh;
   }
   
@@ -72,6 +72,11 @@ body {
 
 footer {
     padding: 50px;
+  }
+
+  .footer-desc {
+    text-decoration: none;
+    color: #667080;
   }
   
   .footer-url {
