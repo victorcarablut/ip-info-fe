@@ -6,7 +6,7 @@ export default function Footer() {
 
   return (
     <footer>
-      <div className="text-center text-muted">
+      <div className="text-center">
         <p className="footer-desc"><small>Copyright © {dateYear}, All rights reserved.</small></p>
         <a className="footer-url" href="https://code.victorcarablut.com" target="_blank" rel="noreferrer"><small>code.victorcarablut.com</small></a>
       </div>

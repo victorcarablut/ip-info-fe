@@ -3,7 +3,7 @@
 /* Body */
 body {
     background: #2F3542;
-    background-image: linear-gradient(to right bottom, #222121, #252323, #292425, #2c2628, #2f282b, #2f282d, #2e2830, #2b2933, #212834, #142833, #05272d, #002624);
+    background-image: linear-gradient(to right bottom, #222121, #252323, #292425, #2c2628, #2f282b, #2d2629, #2a2427, #282225, #201b1d, #181516, #0e0c0d, #000000);
     min-height: 100vh;
   }
   
@@ -17,20 +17,20 @@ body {
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: rgba(0, 51, 255, 0) !important;
-    border-radius: 5px !important;
+    background: rgb(23, 24, 25) !important;
+    border-radius: 0px !important;
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #767f88 !important;
-    border-radius: 5px !important;
+    background: #393b3c !important;
+    border-radius: 0px !important;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #57606f !important;
-    border-radius: 5px !important;
+    background: #47494b !important;
+    border-radius: 0px !important;
   }
   
   
@@ -75,7 +75,6 @@ footer {
   }
 
   .footer-desc {
-    text-decoration: none;
     color: #667080;
   }
   
