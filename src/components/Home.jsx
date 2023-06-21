@@ -27,6 +27,14 @@ function Home() {
 
   // http response status
   const [responseStatusGetIpInfo, setResponseStatusGetIpInfo] = useState("");
+  const [responseStatusGetCurrentClientIpInfo, setResponseStatusGetCurrentClientIpInfo] = useState("");
+
+  useEffect(() => {
+
+    getCurrentClientIpInfo();
+
+  }, [])
+
 
   const handleInputIp = (e) => {
     setIp(e.target.value)
@@ -69,15 +77,44 @@ function Home() {
     })
   }
 
+  const getCurrentClientIpInfo = async() => {
+
+    await axios.get(`https://api.db-ip.com/v2/free/self`).then((res) => {
+
+      if (res.status === 200) {
+        setResponseStatusGetCurrentClientIpInfo("success");
+
+        setIpInfo({
+          ip: res.data.ipAddress,
+          city: res.data.city,
+          region: res.data.stateProv,
+          country: res.data.countryCode,
+          countryFullName: res.data.countryName,
+          loc: "---",
+          org: "---",
+          postal: "---",
+          timezone: res.data.continentName,
+        })
+
+      }
+
+    }).catch(err => {
+      return;
+    })
+
+  }
+
   return (
     <div className="container px-4">
 
       <div className="row" style={{ marginTop: 100 }}>
         <div className="col-sm-6 mb-3 mb-sm-0">
-          <div className="card bg-transparent border border-0 text-secondary">
+          <div className="card bg-transparent border border-0 text-secondary animate__animated animate__fadeIn">
             <div className="card-body">
-              <h5 className="card-title">Special title treatment</h5>
-              <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <h5 className="card-title">Check information about any IP address</h5>
+              <p className="card-text"><i className="bi bi-info-circle me-md-2"></i>We'll not keep track or save your search.</p>
+              <p className="card-text"><small>- Using external API from: <a className="footer-url" href="https://ipinfo.io" target="_blank" rel="noreferrer">ipinfo.io</a> and <a className="footer-url" href="https://db-ip.com" target="_blank" rel="noreferrer">db-ip.com</a></small></p>
+              <p className="card-text"><small>- Developed for demonstration purposes only</small></p>
             </div>
           </div>
         </div>
@@ -97,7 +134,8 @@ function Home() {
               {responseStatusGetIpInfo === "error" &&
                 <small className="text-danger animate__animated animate__fadeIn">Error</small>
               }
-              {responseStatusGetIpInfo === "success" &&
+              
+              {(responseStatusGetIpInfo === "success" || responseStatusGetCurrentClientIpInfo === "success") &&
                 <ul className="list-group list-group-flush animate__animated animate__fadeIn">
                   <li className="list-group-item bg-transparent font-monospace"><small className="text-light me-md-2">ip</small><small className="text-warning">{ipInfo.ip}</small></li>
                   <li className="list-group-item bg-transparent font-monospace"><small className="text-light me-md-2">city</small><small className="text-warning">{ipInfo.city}</small></li>
