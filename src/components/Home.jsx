@@ -12,6 +12,7 @@ function Home() {
 
   const [ipInfo, setIpInfo] = useState({
     ip: null,
+    hostname: null,
     city: null,
     region: null,
     country: null,
@@ -59,6 +60,7 @@ function Home() {
 
         setIpInfo({
           ip: res.data.ip,
+          hostname: res.data.hostname,
           city: res.data.city,
           region: res.data.region,
           country: res.data.country,
@@ -86,6 +88,7 @@ function Home() {
 
         setIpInfo({
           ip: res.data.ipAddress,
+          hostname: "---",
           city: res.data.city,
           region: res.data.stateProv,
           country: res.data.countryCode,
@@ -138,6 +141,7 @@ function Home() {
               {(responseStatusGetIpInfo === "success" || responseStatusGetCurrentClientIpInfo === "success") &&
                 <ul className="list-group list-group-flush animate__animated animate__fadeIn">
                   <li className="list-group-item bg-transparent font-monospace"><small className="text-light me-md-2">ip</small><small className="text-warning">{ipInfo.ip}</small></li>
+                  <li className="list-group-item bg-transparent font-monospace"><small className="text-light me-md-2">hostname</small><small className="text-warning">{ipInfo.hostname}</small></li>
                   <li className="list-group-item bg-transparent font-monospace"><small className="text-light me-md-2">city</small><small className="text-warning">{ipInfo.city}</small></li>
                   <li className="list-group-item bg-transparent font-monospace"><small className="text-light me-md-2">region</small><small className="text-warning">{ipInfo.region}</small></li>
                   <li className="list-group-item bg-transparent font-monospace"><small className="text-light me-md-2">country</small><small className="text-warning">{ipInfo.countryFullName} - {ipInfo.country} - {ipInfo.timezone}</small></li>
