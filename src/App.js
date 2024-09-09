@@ -6,7 +6,6 @@ import Home from './components/Home';
 import Footer from './components/Footer';
 import NotFound from './components/other/NotFound';
 
-
 function App() {
   return (
     <div>
