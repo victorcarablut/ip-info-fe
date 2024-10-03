@@ -30,11 +30,9 @@ Browser (better experience)
 > ```
 > make sure the [backend](https://github.com/victorcarablut/ip-info-be) is also started
 > 
-> using `npm`
+> `npm install` _(skip if you already did it)_
 > 
-> first time `npm install` _skip if you already did it_
-> 
-> run project `npm run dev`
+> `npm run dev`
 > 
 > Local: http://localhost:5173/
 
