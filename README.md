@@ -37,7 +37,7 @@ Browser (better experience)
 > Local: http://localhost:5173/
 
 > [!NOTE]
-> It's just a demo project
+> It's just a demo project.
 > 
 > [code.victorcarablut.com](https://code.victorcarablut.com)
 
