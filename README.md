@@ -41,8 +41,6 @@ Browser (better experience)
 > 
 > Local: http://localhost:5173/
 
-___
-
 > [!NOTE]
 > It's just a demo project
 > 
@@ -50,7 +48,7 @@ ___
 
 ___
 
-# React + Vite
+## React + Vite
 
 Read more on: [https://vite.dev/guide](https://vite.dev/guide)
 
