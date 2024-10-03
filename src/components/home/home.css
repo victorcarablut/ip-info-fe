@@ -1,0 +1,18 @@
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flexbox-container .flexbox-item2 {
+    flex-grow: 1;
+    max-width: 1100px;
+}
+
+.flexbox-item1 {
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}

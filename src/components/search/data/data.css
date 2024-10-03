@@ -1,0 +1,13 @@
+.data {
+    list-style-type: none;
+    font-family: 'Courier New', monospace;
+}
+
+.data>li {
+    margin-bottom: 5px;
+}
+
+.data>li>span {
+    color: rgb(76, 198, 143);
+    margin-left: 8px;
+}

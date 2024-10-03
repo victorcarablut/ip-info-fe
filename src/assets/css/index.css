@@ -1,109 +1,30 @@
-/* ----- Global: Style CSS ----- */
+/* ----- Index Style CSS ----- */
 
-/* Body */
+:root {
+  --body-text-color: #d0c6f7;
+}
+
+/* Main Font */
+@font-face {
+  font-family: Montserrat;
+  src: url('../fonts/Montserrat/variable/Montserrat-VariableFont_wght.ttf');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background: #2F3542;
-  background-image: linear-gradient(to right bottom, #222121, #252323, #292425, #2c2628, #2f282b, #2d2629, #2a2427, #282225, #201b1d, #181516, #0e0c0d, #000000);
-  min-height: 100vh;
-}
-
-
-/* Custom Global: scrollbar */
-
-/* Width */
-::-webkit-scrollbar {
-  width: 10px !important;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: rgb(23, 24, 25) !important;
-  border-radius: 0px !important;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #393b3c !important;
-  border-radius: 0px !important;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #47494b !important;
-  border-radius: 0px !important;
-}
-
-
-/* Custom Global: scrollbar (small) */
-#scrollbar-small::-webkit-scrollbar {
-  width: 6px !important;
-}
-
-/* Baloon CSS (Tooltip) */
-.tooltip-dark {
-  --balloon-color: rgba(99, 99, 100, 0.566);
-}
-
-/* Span */
-.custom-span-dark {
-  background: rgba(87, 92, 105, 0.5) !important;
-  color: #a4b0be !important;
-  border: 1px solid #747d8c8f !important;
-}
-
-/* Card */
-.custom-card-dark-transparent {
-  width: 100% !important;
-  height: auto !important;
-  background: rgba(64, 69, 79, 0.5) !important;
-  color: #a4b0be !important;
-  border-radius: 5px !important;
-  border: 1px solid #353b48 !important;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px !important;
-}
-
-
-/* Search Input */
-.search-input {
-  max-width: 250px !important;
-  height: 35px !important;
-  background: #565c6e53 !important;
-  border: 1px solid #747d8c8f !important;
-  outline: none !important;
-  box-shadow: none !important;
-  color: rgb(76, 198, 143) !important;
-  font-size: 14px !important;
-  font-weight: bold !important;
-  letter-spacing: 1px !important;
-  transition: 0.3s ease-in-out !important;
-}
-
-.search-input:hover {
-  border: 1px solid #a4b0be !important;
-}
-
-.search-input::placeholder {
-  color: #a4b0be !important;
-  font-size: 12px !important;
-}
-
-
-/* footer */
-
-footer {
-  padding: 50px;
-}
-
-.footer-desc {
-  color: #667080;
-}
-
-.footer-url {
-  text-decoration: none;
-  color: #57606f;
-  transition: 0.5s ease-in-out;
-}
-
-.footer-url:hover {
-  color: #a4b0be;
+  background-image: linear-gradient(to right bottom, #201b27, #221f2b, #242330, #262734, #282b38, #2a2d39, #2d2e3b, #2f303c, #32303b, #342f3a, #362f38, #372f37);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--body-text-color);
+  /* better experience with world map "zoomed" disabling horizontal scroll: (overflow-x: hidden;) */
+  overflow-x: hidden;
 }

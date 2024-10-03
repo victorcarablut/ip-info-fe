@@ -1,100 +1,54 @@
-<img alt="img" src="https://code.victorcarablut.com/wp-content/uploads/2023/06/img-21-06-2023-dhfy4502fjf4.png" width="100%" />
-
-# Technologies
+<img alt="img" src="https://code.victorcarablut.com/wp-content/uploads/2024/10/screenshot-ip-info-img02.png" width="100%" />
 
 ### This is `frontend`  . . . go to [backend](https://github.com/victorcarablut/ip-info-be)
 
-```
-// frontend
+## Technologies
+
 React Js (v18)
+ - Vite
  - Axios
- 
--- Bootstrap CSS (v5)
--- HTML, CSS, JS
-```
+ - HTML, CSS, JS
+ - D3.js (world map)
 
-```
-// IDE
-Visual Studio Code
+IDE
+ - Visual Studio Code
 
-...better experience with: Microsoft Edge, Google Chrome
-```
+Browser (better experience)
+ - Microsoft Edge
+ - Google Chrome
+
+
+## Getting started
+
+> [!IMPORTANT]
+> create `.env` file in main folder (outside src)
+> ```
+> CI=false
+> GENERATE_SOURCEMAP=false
+> 
+> #active it during build for production
+> #VITE_REACT_APP_BE_API=""
+> 
+> VITE_REACT_APP_BE_API="http://localhost:8080"
+> ```
+> make sure the [backend](https://github.com/victorcarablut/ip-info-be) is also started
+> 
+> using `npm`
+> first time `npm install` _skip if you already did it_
+> run project `npm run dev`
+> Local: http://localhost:5173/
 
 ___
 
-`Developed for demonstration purposes only`
-
+> [!NOTE]
+> It's just a demo project
 > [code.victorcarablut.com](https://code.victorcarablut.com)
 
 ___
 
-# Getting Started with Create React App
+# React + Vite
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Read more on: [https://vite.dev/guide](https://vite.dev/guide)
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

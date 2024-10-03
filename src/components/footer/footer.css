@@ -1,0 +1,29 @@
+:root {
+    --footer-text-color: #667080;
+    --footer-text-color-hover: #a4b0be;
+}
+
+footer {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    color: var(--footer-text-color);
+}
+
+footer>a {
+    text-decoration: none;
+    color: var(--footer-text-color);
+    transition: .5s ease-in-out;
+}
+
+footer>a:hover {
+    color: var(--footer-text-color-hover);
+}
+
+footer>a>i {
+    margin-right: 5px;
+}
+
+footer>.git-link {
+    max-width: 80px;
+    display: flex;
+}

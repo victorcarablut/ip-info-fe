@@ -1,0 +1,42 @@
+
+Nr. 1
+https://getjsonip.com/
+jsonip is a free unlimited IP address and geolocation API
+$.getJSON('https://jsonip.com/', function(data) {
+  console.log(JSON.stringify(data, null, 2));
+});
+
+res:
+{
+  "ip": "..."
+}
+
+----------------------------------------------------------------------------
+
+Nr. 2
+A Simple Public IP Address API
+https://www.ipify.org/
+$ curl 'https://api.ipify.org?format=json'
+{
+   "ip":"..."
+}
+
+----------------------------------------------------------------------------
+
+https://ipinfo.io/
+Valid Input: 
+Example: Google
+IPv4: 8.8.8.8
+IPv6: 2001:4860:4860::8888
+ 
+
+
+ ............................................................................
+ try
+ https://www.youtube.com/watch?v=GPx2j58kZRI
+ https://codepen.io/yoannhel/pen/DMzjog
+
+
+
+World countries
+https://stefangabos.github.io/world_countries/

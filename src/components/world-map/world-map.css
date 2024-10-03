@@ -1,0 +1,157 @@
+.world-map {
+    width: 100%;
+    height: 700px;
+    margin-top: -30px;
+    filter: drop-shadow(rgba(0, 0, 0, 0.16) 0px 1px 4px);
+}
+
+/* fix map position on screen resize */
+@media only screen and (max-width: 1600px) {
+    .world-map {
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .world-map {
+        height: 550px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .world-map {
+        height: 500px;
+
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .world-map {
+        margin-top: 0px;
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .world-map {
+        height: 400px;
+
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .world-map {
+        height: 350px;
+    }
+}
+
+
+.world-map>path {
+    fill: #596275;
+    stroke: transparent;
+    stroke-width: .5;
+}
+
+.world-map>path:hover {
+    fill: #707b97;
+}
+
+.world-map>.label {
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    fill: #d0c6f7;
+    text-shadow: 4px 4px 6px #1b1b1b;
+    transition-duration: 0.3s;
+}
+
+.world-map>.label:hover {
+    font-size: 17px;
+}
+
+/* make circle live effect */
+.world-map>circle {
+    animation: customAnimationFadeIn 1.3s ease infinite;
+}
+
+@keyframes customAnimationFadeIn {
+    from {
+        fill: #ffffff;
+        fill-opacity: 0.0;
+        stroke: #ffffff;
+        stroke-width: 0;
+        stroke-opacity: 0.0;
+    }
+
+    to {
+        fill: #e100ff;
+        fill-opacity: 0.9;
+        stroke: #6f00ff00;
+        stroke-width: 50;
+        stroke-opacity: 0.2;
+    }
+}
+
+.cursor {
+    visibility: hidden;
+}
+
+.cursor>h6 {
+    position: absolute;
+    pointer-events: none;
+    transform: translate(-100%, -90%);
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    max-width: 100px;
+}
+
+.zoom-map-toggle {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.zoom-map-toggle>span {
+    padding-right: 10px;
+    font-size: 12px;
+    z-index: 1;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    cursor: pointer;
+    width: 45px;
+    height: 10px;
+    appearance: none;
+    background: #3b3b7e;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, .5);
+    transition: .5s;
+    z-index: 1;
+}
+
+input:checked[type="checkbox"] {
+    background: #614cbe;
+    box-shadow: 0px 0px 10px 0px rgba(106, 80, 255, 0.7);
+}
+
+input[type="checkbox"]:before {
+    content: '';
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    border-radius: 20px;
+    top: -5px;
+    left: 0;
+    background: #624cc0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+input:checked[type="checkbox"]:before {
+    left: 26px;
+    background: #795bff;
+    box-shadow: 0px 0px 25px 0px rgba(117, 92, 255, 0.7);
+}

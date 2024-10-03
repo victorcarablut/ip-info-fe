@@ -1,0 +1,134 @@
+.search-section {
+    max-width: 330px;
+    margin: 10px;
+}
+
+.search-form {
+    position: relative;
+    padding: 15px 0 0;
+}
+
+.search-input {
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #b3a0ff;
+    outline: 0;
+    color: rgb(76, 198, 143);
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.8s;
+}
+
+.search-input::placeholder {
+    color: transparent;
+}
+
+.search-input:placeholder-shown~.search-label {
+    font-size: 16px;
+    cursor: text;
+    top: 20px;
+}
+
+label,
+.search-input:focus~.search-label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 12px;
+}
+
+.search-input:focus {
+    padding-bottom: 6px;
+    border-bottom: 2px solid #b3a0ff;
+}
+
+.error {
+    font-family: 'Courier New', monospace;
+    color: #ff7979;
+}
+
+.search-button-section {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 10px;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+
+.search-button {
+    cursor: pointer;
+}
+
+.search-loading {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.search-loading:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    animation: animate-search-button 1s linear infinite;
+}
+
+@keyframes animate-search-button {
+    0% {
+        transform: rotate(0deg);
+        box-shadow: 1px 2px 1px #c804c8;
+    }
+
+    50% {
+        transform: rotate(180deg);
+        box-shadow: 1px 2px 1px #058fff;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        box-shadow: 1px 2px 1px #c804c8;
+    }
+}
+
+.search-options-section {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.search-options-section>button {
+    padding: 5px 15px;
+    background-color: #474787;
+    color: #d0c6f7;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    box-shadow: 0px 0px 10px 2px rgba(57, 46, 126, 0.7);
+}
+
+.search-options-section>button:hover {
+    background-color: #5a5aaa;
+    box-shadow: 0px 0px 10px 4px rgba(67, 54, 153, 0.7);
+    transition: all 0.8s
+}
