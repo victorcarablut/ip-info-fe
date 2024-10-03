@@ -26,9 +26,6 @@ Browser (better experience)
 > CI=false
 > GENERATE_SOURCEMAP=false
 > 
-> #active it during build for production
-> #VITE_REACT_APP_BE_API=""
-> 
 > VITE_REACT_APP_BE_API="http://localhost:8080"
 > ```
 > make sure the [backend](https://github.com/victorcarablut/ip-info-be) is also started
@@ -45,8 +42,6 @@ Browser (better experience)
 > It's just a demo project
 > 
 > [code.victorcarablut.com](https://code.victorcarablut.com)
-
-___
 
 ## React + Vite
 
