@@ -42,9 +42,10 @@ function Search({ handleWorldMapData }) {
 
     // get data from backend
     const getIpData = async (ip) => {
-
+        
         setIsLoading(true);
         setIsError(false);
+        handleWorldMapData({});
 
         const data = { ip: ip }
 

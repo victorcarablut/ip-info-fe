@@ -1,12 +1,9 @@
-import { lazy } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
+import Home from './components/home/Home';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
-
-// - Using dynamic import() to code-split the application
-const Home = lazy(()=> import("./components/home/Home"));
-const PageNotFound = lazy(()=> import("./components/other/PageNotFound"));
+import PageNotFound from './components/other/PageNotFound';
 
 function App() {
   return (
