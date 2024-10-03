@@ -1,22 +1,25 @@
 <img alt="img" src="https://code.victorcarablut.com/wp-content/uploads/2024/10/screenshot-ip-info-img02.png" width="100%" />
-<p align="right">👉<a href="https://ip-info-demo.victorcarablut.com">Live Demo</p>
+<p align="right">╰┈➤<a href="https://ip-info-demo.victorcarablut.com">Live Demo</p>
 
 ### This is `frontend`  . . . go to [backend](https://github.com/victorcarablut/ip-info-be)
 
 ## Technologies
 
 React Js (v18)
- - Vite
- - Axios
- - HTML, CSS, JS
- - D3.js (world map)
+- Vite
+- Axios
+- HTML, CSS, JS
+- D3.js (world map)
 
 IDE
- - Visual Studio Code
+- Visual Studio Code
 
 Browser (better experience)
- - Microsoft Edge
- - Google Chrome
+- Microsoft Edge
+- Google Chrome
+
+ Other
+ - Responsive
 
 
 ## Getting started
@@ -40,7 +43,7 @@ Browser (better experience)
 > [!NOTE]
 > 📄 It's just a demo project.
 > 
-> [code.victorcarablut.com](https://code.victorcarablut.com)
+> 😎 [code.victorcarablut.com](https://code.victorcarablut.com)
 
 ## React + Vite
 
