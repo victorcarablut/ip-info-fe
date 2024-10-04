@@ -24,6 +24,6 @@ footer>a>i {
 }
 
 footer>.git-link {
-    max-width: 80px;
+    max-width: 180px;
     display: flex;
 }
