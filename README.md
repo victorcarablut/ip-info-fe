@@ -43,9 +43,11 @@ Browser _(better experience)_
 > 
 > License _(my own source code)_
 > 
-> ✔️ Free to use, copy, modify.
+> ✔️ Free to use, copy, modify and share.
+> ✔️ Copying part of source code is allowed and you're free to integrate in your own projects with any restrictions, personal & commercial.
+> ✔️ Attribution is not required but always appreciated.
 > 
-> ❌ Don't sell, publish, distribute as yours without modifying it first.
+> ❌ Don't sell, publish or distribute as yours without modifying it first. _(referring to the hole project, be creative)_
 > 
 > 
 > License _(other resources, technologies, languages, frameworks, libraries that i used)_
