@@ -62,3 +62,12 @@ Read more on: [https://vite.dev/guide](https://vite.dev/guide)
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+---
+
+![GitHub stars](https://img.shields.io/github/stars/victorcarablut/ip-info-fe?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/victorcarablut/ip-info-fe?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/victorcarablut/ip-info-fe)
+![GitHub language count](https://img.shields.io/github/languages/count/victorcarablut/ip-info-fe)
+![GitHub top language](https://img.shields.io/github/languages/top/victorcarablut/ip-info-fe)
+![GitHub last commit](https://img.shields.io/github/last-commit/victorcarablut/ip-info-fe)
