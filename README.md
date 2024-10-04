@@ -18,10 +18,6 @@ Browser _(better experience)_
 - Microsoft Edge
 - Google Chrome
 
-Other
-- Responsive
-
-
 ## Getting started
 
 > [!IMPORTANT]
@@ -38,14 +34,14 @@ Other
 > 
 > `npm run dev` _(running locally)_
 > 
-> Local: http://localhost:5173/
+> Local: http://localhost:5173
 
 > [!NOTE]
 > 📄 It's just a demo project.
 > 
 > 🌐 [code.victorcarablut.com](https://code.victorcarablut.com)
 > 
-> License _(my source code)_
+> License _(my own source code)_
 > 
 > ✔️ Free to use, copy, modify.
 > 
@@ -54,7 +50,7 @@ Other
 > 
 > License _(other resources, technologies, languages, frameworks, libraries that i used)_
 > 
-> ⚠️ Verify their own respective license, terms and conditions.
+> ⚠️ Please verify their own respective license, terms and conditions.
 
 ## React + Vite
 
