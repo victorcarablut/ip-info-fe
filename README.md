@@ -49,7 +49,7 @@ Browser _(better experience)_
 > 
 > ✔️ Attribution is not required but always appreciated.
 > 
-> ❌ Don't sell, publish or distribute as yours without modifying it first. _(referring to the hole project, be creative)_
+> ❌ Don't sell, publish or distribute as yours without modifying it first, be creative. _(referring to the hole project)_
 > 
 > 
 > License _(other resources, technologies, languages, frameworks, libraries that i used)_
