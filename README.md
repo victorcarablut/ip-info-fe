@@ -11,15 +11,15 @@ React Js (v18)
 - HTML, CSS, JS
 - D3.js (world map)
 
-IDE
+IDE _(i used)_
 - Visual Studio Code
 
-Browser (better experience)
+Browser _(better experience)_
 - Microsoft Edge
 - Google Chrome
 
- Other
- - Responsive
+Other
+- Responsive
 
 
 ## Getting started
@@ -36,7 +36,7 @@ Browser (better experience)
 > 
 > `npm install` _(skip if you already did it)_
 > 
-> `npm run dev`
+> `npm run dev` _(running locally)_
 > 
 > Local: http://localhost:5173/
 
@@ -44,6 +44,13 @@ Browser (better experience)
 > 📄 It's just a demo project.
 > 
 > 🌐 [code.victorcarablut.com](https://code.victorcarablut.com)
+> 
+> License _(my source code)_
+> ✔️ Free to use, copy, modify.
+> ❌ Don't sell, publish, distribute as yours without modifying it first.
+> 
+> License _(other resources/technologies, languages, frameworks, libraries i used)_
+> ⚠️ Verify their own respective license, terms and conditions.
 
 ## React + Vite
 
