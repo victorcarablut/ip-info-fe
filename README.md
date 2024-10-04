@@ -52,7 +52,7 @@ Other
 > ❌ Don't sell, publish, distribute as yours without modifying it first.
 > 
 > 
-> License _(other resources/technologies, languages, frameworks, libraries i used)_
+> License _(other resources, technologies, languages, frameworks, libraries that i used)_
 > 
 > ⚠️ Verify their own respective license, terms and conditions.
 
