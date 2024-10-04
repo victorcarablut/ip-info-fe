@@ -41,7 +41,7 @@ Browser _(better experience)_
 > 
 > 🌐 [code.victorcarablut.com](https://code.victorcarablut.com)
 > 
-> License _(my own source code)_
+> 📜 License _(my own source code)_
 > 
 > ✔️ Free to use, copy, modify and share.
 > 
@@ -52,7 +52,7 @@ Browser _(better experience)_
 > ❌ Don't sell, publish or distribute as yours without modifying it first, be creative. _(referring to the hole project)_
 > 
 > 
-> License _(other resources, technologies, languages, frameworks, libraries that i used)_
+> 📜 License _(other resources, technologies, languages, frameworks, libraries that i used)_
 > 
 > ⚠️ Please verify their own respective license, terms and conditions.
 
