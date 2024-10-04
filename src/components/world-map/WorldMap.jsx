@@ -107,12 +107,12 @@ function WorldMap({ worldMapData }) {
 
 
     if (zoomMapEnabled) {
-      const myZoom = zoomable();
-      myZoom(document.getElementById('world-map-container')).svgEl(document.getElementById('world-map')).scaleExtent([1, 4]);
+      const zoom = zoomable();
+      zoom(document.getElementById('world-map-container')).svgEl(document.getElementById('world-map')).scaleExtent([1, 4]);
       document.getElementById("world-map").style.cursor = "all-scroll";
     } else {
-      const myZoom = zoomable();
-      myZoom(document.getElementById('world-map-container')).svgEl(document.getElementById('world-map')).zoomReset([{ x: 0, y: 0, k: 0 }]).enableX(false).enableY(false);
+      const zoom = zoomable();
+      zoom(document.getElementById('world-map-container')).svgEl(document.getElementById('world-map')).zoomReset([{ x: 0, y: 0, k: 0 }]).enableX(false).enableY(false);
       document.getElementById("world-map").style.cursor = null;
     }
 
