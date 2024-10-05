@@ -18,6 +18,9 @@ Browser _(better experience)_
 - Microsoft Edge
 - Google Chrome
 
+Other
+- https://geojson-maps.kyd.au
+
 ## Getting started
 
 > [!IMPORTANT]
