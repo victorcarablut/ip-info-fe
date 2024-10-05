@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { select, geoPath, geoMercator } from 'd3';
 import useResizeObserver from "./useResizeObserver";
 import zoomable from 'd3-zoomable';
-import data from "../../assets/custom_geo_file/custom.geo_medium.json";
+import data from "../../assets/custom_geo_file/geo_medium.json"; // medium resolution 50m
 import './world-map.css';
 
 function WorldMap({ worldMapData }) {
