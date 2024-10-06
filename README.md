@@ -1,4 +1,4 @@
-<img alt="img" src="https://code.victorcarablut.com/wp-content/uploads/2024/10/screenshot-ip-info-img02.png" width="100%" />
+<img alt="img" src="https://code.victorcarablut.com/wp-content/uploads/2024/10/screenshot-ip-info-img03.png" width="100%" />
 <p align="right">⭐ <a href="https://ip-info-demo.victorcarablut.com">Live Demo</p>
 
 ### This is `frontend`  . . . go to [backend](https://github.com/victorcarablut/ip-info-be)
@@ -48,16 +48,20 @@ Other
 > 
 > ✔️ Free to use, copy, modify and share.
 > 
-> ✔️ Copying part of source code is allowed and you're free to integrate in your own projects with any restrictions, personal & commercial.
+> ✔️ Copying part of source code is allowed and you're free to integrate in your personal/commercial projects with any restrictions.
 > 
 > ✔️ Attribution is not required but always appreciated.
 > 
-> ❌ Don't sell, publish or distribute as yours without modifying it first, be creative. _(referring to the hole project)_
+> ❌ Don't sell, publish or distribute as yours without modifying it, be creative. _(referring to the hole project)_
 > 
 > 
-> 📜 License _(other resources, technologies, languages, frameworks and libraries that i used)_
+> 📜 License _(all other third party resources, technologies, languages, frameworks and libraries that i used)_
 > 
 > ⚠️ Please verify their own respective license, terms and conditions.
+
+> [!WARNING]
+> 👩🏻‍💻 I'm always looking for best practices solutions but still learning so please keep in mind that the project is provided as it is without any warranty and there might be bugs or incorrect way to write code also in terms of security.
+> Suggestion to improve the project are accepted. ✉️ <a href="mailto:contact@ip-info-demo.victorcarablut.com">contact@ip-info-demo.victorcarablut.com</a>
 
 ## React + Vite
 

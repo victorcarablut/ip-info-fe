@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import logo from '../../assets/images/logo-ip-info-geolocation.png';
 import './header.css';
 
-function Header() {
+export default function Header() {
   return (
     <header>
       <Link to={"/"} className="logo-container-link">
@@ -13,10 +13,8 @@ function Header() {
         </div>
       </Link>
       <p className="description">
-        Discover location data of IP address geolocation.
+        Discover location data of IP address geolocation and more.
       </p>
     </header>
   )
 }
-
-export default Header

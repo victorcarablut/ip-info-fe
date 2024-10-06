@@ -1,7 +1,7 @@
 import { createRoot } from 'react-dom/client';
 import App from './App.jsx';
 
-// Index Style CSS
+// Global Index Style CSS
 import './assets/css/index.css';
 
 // Custom Scrollbar CSS

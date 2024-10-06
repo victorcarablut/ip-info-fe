@@ -1,0 +1,51 @@
+.weather {
+    display: flex;
+    align-items: center;
+}
+
+.w-day {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(18, 68, 133, 0.527));
+    border-radius: 10px;
+}
+
+.w-night {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(8, 7, 53, 0.623));
+    border-radius: 10px;
+}
+
+.weather>.data1 {
+    margin-right: 20px;
+}
+
+.weather>.data1>p>i {
+    padding-right: 8px;
+}
+
+.weather>.data1>p>span {
+    color: rgb(76, 198, 143);
+}
+
+.weather>.data2>p>span {
+    color: rgb(76, 198, 143);
+}
+
+.weather>img {
+    filter: drop-shadow(rgba(0, 0, 0, 0.20) 0px 2px 8px);
+    animation: fadeInLeft 1.5s ease;
+}
+
+.weather>p>span {
+    animation: fadeInLeft 2s ease;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px) scale(1);
+    }
+}

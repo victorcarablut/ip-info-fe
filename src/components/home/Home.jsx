@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Search from '../search/Search';
-import WorldMap from '../world-map/WorldMap';
+import Search from './search/Search';
+import WorldMap from './world-map/WorldMap';
 import './home.css';
 
-function Home() {
+export default function Home() {
 
   const [worldMapData, setWorldMapData] = useState({});
 
@@ -27,5 +27,3 @@ function Home() {
     </div>
   )
 }
-
-export default Home

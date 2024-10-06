@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Data from './data/Data';
-import { url } from "../../config";
+import { url } from '../../../config';
 import './search.css';
 
-function Search({ handleWorldMapData }) {
+export default function Search({ handleWorldMapData }) {
 
     const [ip, setIp] = useState(null);
     const [ipData, setIpData] = useState({});
@@ -26,11 +26,11 @@ function Search({ handleWorldMapData }) {
         setIsLoading(true);
         setIsError(false);
 
-        await axios.get(link).then((res) => {
+        await axios.get(link).then(async (res) => {
 
             if (res.status === 200) {
                 setIp(res.data.ip);
-                getIpData(res.data.ip);
+                await getIpData(res.data.ip);
             }
         }).catch(err => {
             setLink(link2) // if link1 error try link2
@@ -42,7 +42,7 @@ function Search({ handleWorldMapData }) {
 
     // get data from backend
     const getIpData = async (ip) => {
-        
+
         setIsLoading(true);
         setIsError(false);
         handleWorldMapData({});
@@ -78,7 +78,15 @@ function Search({ handleWorldMapData }) {
     return (
         <div className="search-section">
             <form className="search-form" onSubmit={handleSubmit}>
-                <input type="text" id="search-input" placeholder="Search..." className="search-input" value={ip || ""} onChange={(e) => setIp(e.target.value.trim())} autoComplete="off" maxLength={50} />
+                <input type="text"
+                    id="search-input"
+                    placeholder="Search..."
+                    className="search-input"
+                    value={ip || ""}
+                    onChange={(e) => setIp(e.target.value.trim())}
+                    onKeyDown={(e) => { if (e.key === 'Enter' && ip) getIpData(ip) }}
+                    autoComplete="off"
+                    maxLength={50} />
                 <label htmlFor="search-input" className="search-label">Search</label>
                 <div className="search-button-section">
 
@@ -98,10 +106,8 @@ function Search({ handleWorldMapData }) {
             </div>
             <div>
                 {!isError ? <Data data={ipData} isLoading={isLoading} /> : <p className="error">error: verify input or try later</p>}
-                {isApiLimitReached && <p className="error">reached API usage limit</p>}
+                {isApiLimitReached && <p className="warning">API usage limit reached, try later</p>}
             </div>
         </div>
     )
 }
-
-export default Search

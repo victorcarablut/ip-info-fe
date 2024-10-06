@@ -2,10 +2,10 @@ import React, { useEffect, useRef, useState } from 'react';
 import { select, geoPath, geoMercator } from 'd3';
 import useResizeObserver from "./useResizeObserver";
 import zoomable from 'd3-zoomable';
-import data from "../../assets/custom_geo_file/geo_medium.json"; // medium resolution 50m
+import geoData from "../../../assets/custom_geo_file/geo_medium.json"; // medium resolution 50m
 import './world-map.css';
 
-function WorldMap({ worldMapData }) {
+export default function WorldMap({ worldMapData }) {
 
   const svgRef = useRef();
   const wrapperRef = useRef();
@@ -18,7 +18,7 @@ function WorldMap({ worldMapData }) {
     const svg = select(svgRef.current);
 
     const { width, height } = dimensions || wrapperRef.current.getBoundingClientRect();
-    const projection = geoMercator().fitSize([width, height], data);
+    const projection = geoMercator().fitSize([width, height], geoData);
     const pathGenerator = geoPath().projection(projection);
 
     // important values on display country name on map mouse over
@@ -28,7 +28,7 @@ function WorldMap({ worldMapData }) {
     // map
     svg
       .selectAll("path")
-      .data(data.features)
+      .data(geoData.features)
       .join("path")
       .attr("d", feature => pathGenerator(feature))
       .style("opacity", defaultMapOpacity)
@@ -116,7 +116,7 @@ function WorldMap({ worldMapData }) {
       document.getElementById("world-map").style.cursor = null;
     }
 
-  }, [data, worldMapData, dimensions, zoomMapEnabled])
+  }, [geoData, worldMapData, dimensions, zoomMapEnabled])
 
   return (
     <div ref={wrapperRef} id="world-map-container">
@@ -135,5 +135,3 @@ function WorldMap({ worldMapData }) {
     </div>
   )
 }
-
-export default WorldMap

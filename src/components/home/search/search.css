@@ -51,6 +51,11 @@ label,
     color: #ff7979;
 }
 
+.warning {
+    font-family: 'Courier New', monospace;
+    color: #ffb579;
+}
+
 .search-button-section {
     width: 30px;
     height: 30px;
