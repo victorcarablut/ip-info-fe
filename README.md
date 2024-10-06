@@ -44,7 +44,7 @@ Other
 > 
 > 🌐 [code.victorcarablut.com](https://code.victorcarablut.com)
 > 
-> 📜 License _(my own source code)_
+> 📜 License <sup>_(my own source code)_</sup>
 > 
 > ✔️ Free to use, copy, modify and share.
 > Copying part of source code is allowed and you're free to integrate in your personal/commercial projects with any restrictions.
@@ -55,7 +55,7 @@ Other
 > 
 > 📜 License _(all other third party resources, technologies, languages, frameworks and libraries that i used)_
 > 
-> ⚠️ Please verify their own respective license, terms and <sup>conditions.</sup>
+> ⚠️ Please verify their own respective license, terms and conditions.
 
 > [!WARNING]
 > 👩🏻‍💻 I'm always looking for best practices solutions but still learning so please keep in mind that the project is provided as it is without any warranty and there might be bugs or incorrect way to write code in terms of security.
