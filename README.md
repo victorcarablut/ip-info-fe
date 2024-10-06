@@ -37,7 +37,7 @@ Other
 > 
 > `npm run dev` _(running locally)_
 > 
-> Local: http://localhost:5173
+> Local: <a href="http://localhost:5173" target="_blank" rel="noopener noreferrer"><small>http://localhost:5173</small></a>
 
 > [!NOTE]
 > 📄 It's just a demo project.
@@ -60,7 +60,7 @@ Other
 > [!WARNING]
 > 👩🏻‍💻 I'm always looking for best practices solutions but still learning so please keep in mind that the project is provided as it is without any warranty and there might be bugs or incorrect way to write code in terms of security.
 > 
-> Suggestion to improve the project are accepted. ✉️ <a href="mailto:contact@ip-info-demo.victorcarablut.com">contact@ip-info-demo.victorcarablut.com</a>
+> 💡Suggestion to improve the project are accepted. ✉️ <a href="mailto:contact@ip-info-demo.victorcarablut.com">contact@ip-info-demo.victorcarablut.com</a>
 
 ## React + Vite
 
