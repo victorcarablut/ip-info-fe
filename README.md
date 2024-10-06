@@ -47,7 +47,6 @@ Other
 > 📜 License _(my own source code)_
 > 
 > ✔️ Free to use, copy, modify and share.
-> 
 > Copying part of source code is allowed and you're free to integrate in your personal/commercial projects with any restrictions.
 > Attribution is not required but always appreciated.
 > 
