@@ -1,4 +1,4 @@
-<img alt="img" src="https://code.victorcarablut.com/wp-content/uploads/2024/10/screenshot-ip-info-img03.png" width="100%" />
+<img alt="img" src="https://code.victorcarablut.com/wp-content/uploads/2024/10/screenshot-ip-info-img04.png" width="100%" />
 <p align="right">⭐ <a href="https://ip-info-demo.victorcarablut.com">Live Demo</p>
 
 ### This is `frontend`  . . . go to [backend](https://github.com/victorcarablut/ip-info-be)
@@ -11,10 +11,10 @@ React Js <sup>(v18)</sup>
 - HTML, CSS, JS
 - D3.js <sup>(world map)</sup>
 
-IDE <sup>_(i used)_</sup>
+IDE <sup>(i used)</sup>
 - Visual Studio Code
 
-Browser <sup>_(better experience)_</sup>
+Browser <sup>(better experience)</sup>
 - Microsoft Edge
 - Google Chrome
 
@@ -33,9 +33,9 @@ Other
 > ```
 > make sure the [backend](https://github.com/victorcarablut/ip-info-be) is also started
 > 
-> `npm install` <sup>_(skip if you already did it)_</sup>
+> `npm install` <sup>(skip if you already did it)</sup>
 > 
-> `npm run dev` <sup>_(running locally)_<sup>
+> `npm run dev` <sup>(running locally)<sup>
 > 
 > Local: http://localhost:5173
 
@@ -50,7 +50,7 @@ Other
 > Copying part of source code is allowed and you're free to integrate in your personal/commercial projects with any restrictions.
 > Attribution is not required but always appreciated.
 > 
-> ❌ Don't sell, publish or distribute as yours without modifying it, be creative. <sup>_(referring to the hole project)_</sup>
+> ❌ Don't sell, publish or distribute as yours without modifying it, be creative. <sup>(referring to the hole project)</sup>
 > 
 > 
 > 📜 License _(all other third party resources, technologies, languages, frameworks and libraries that i used)_
