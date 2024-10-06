@@ -48,8 +48,7 @@ Other
 > 
 > ✔️ Free to use, copy, modify and share.
 > 
-> Copying part of source code is allowed and you're free to integrate in your personal/commercial projects with any restrictions.
-> 
+> Copying part of source code is allowed and you're free to integrate in your personal/commercial projects with any restrictions. 
 > Attribution is not required but always appreciated.
 > 
 > ❌ Don't sell, publish or distribute as yours without modifying it, be creative. _(referring to the hole project)_
