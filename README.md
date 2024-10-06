@@ -5,16 +5,16 @@
 
 ## Technologies
 
-React Js (v18)
+React Js <sup>(v18)</sup>
 - Vite
 - Axios
 - HTML, CSS, JS
 - D3.js (world map)
 
-IDE _(i used)_
+IDE <sup>_(i used)_</sup>
 - Visual Studio Code
 
-Browser _(better experience)_
+Browser <sup>_(better experience)_</sup>
 - Microsoft Edge
 - Google Chrome
 
@@ -24,7 +24,7 @@ Other
 ## Getting started
 
 > [!IMPORTANT]
-> create `.env` file in main folder (outside src)
+> create `.env` file in main folder <sup>(outside src)</sup>
 > ```
 > CI=false
 > GENERATE_SOURCEMAP=false
@@ -33,9 +33,9 @@ Other
 > ```
 > make sure the [backend](https://github.com/victorcarablut/ip-info-be) is also started
 > 
-> `npm install` _(skip if you already did it)_
+> `npm install` <sup>_(skip if you already did it)_</sup>
 > 
-> `npm run dev` _(running locally)_
+> `npm run dev` <sup>_(running locally)_</sup>
 > 
 > Local: http://localhost:5173
 
@@ -50,10 +50,10 @@ Other
 > Copying part of source code is allowed and you're free to integrate in your personal/commercial projects with any restrictions.
 > Attribution is not required but always appreciated.
 > 
-> ❌ Don't sell, publish or distribute as yours without modifying it, be creative. _(referring to the hole project)_
+> ❌ Don't sell, publish or distribute as yours without modifying it, be creative. <sup>_(referring to the hole project)_</sup>
 > 
 > 
-> 📜 License _(all other third party resources, technologies, languages, frameworks and libraries that i used)_
+> 📜 License <sup>_(all other third party resources, technologies, languages, frameworks and libraries that i used)_</sup>
 > 
 > ⚠️ Please verify their own respective license, terms and conditions.
 
