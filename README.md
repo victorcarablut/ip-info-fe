@@ -11,10 +11,10 @@
 - HTML, CSS, JS
 - D3.js <sup>(world map)</sup>
 
-<strong>IDE</strong> _(i used)_
+<strong>IDE</strong> <sup>(i used)</sup>
 - Visual Studio Code
 
-<strong>Browser</strong> <i>better experience</i>
+<strong>Browser</strong> <sup>(better experience)</sup>
 - Microsoft Edge
 - Google Chrome
 
@@ -33,9 +33,9 @@
 > ```
 > make sure the [backend](https://github.com/victorcarablut/ip-info-be) is also started
 > 
-> `npm install` <sup>skip if you already did it</sup>
+> `npm install` <sup>(skip if you already did it)</sup>
 > 
-> `npm run dev` <sup>running locally<sup>
+> `npm run dev` <sup>(running locally)<sup>
 > 
 > Local: http://localhost:5173
 
