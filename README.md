@@ -9,12 +9,12 @@
 - Vite
 - Axios
 - HTML, CSS, JS
-- D3.js <sup>(world map)</sup>
+- D3.js _(world map)_
 
-<strong>IDE</strong> <sup>(i used)</sup>
+<strong>IDE</strong> _(i used)_
 - Visual Studio Code
 
-<strong>Browser</strong> <sup>(better experience)</sup>
+<strong>Browser</strong> _(better experience)_
 - Microsoft Edge
 - Google Chrome
 
@@ -24,7 +24,7 @@
 ## Getting started
 
 > [!IMPORTANT]
-> create `.env` file in main folder <sup>(outside src)</sup>
+> create `.env` file in main folder _(outside src)_
 > ```
 > CI=false
 > GENERATE_SOURCEMAP=false
@@ -33,9 +33,9 @@
 > ```
 > make sure the [backend](https://github.com/victorcarablut/ip-info-be) is also started
 > 
-> `npm install` <sup>(skip if you already did it)</sup>
+> `npm install` _(skip if you already did it)_
 > 
-> `npm run dev` <sup>(running locally)<sup>
+> `npm run dev` _(running locally)_
 > 
 > Local: http://localhost:5173
 
@@ -50,7 +50,7 @@
 > Copying part of source code is allowed and you're free to integrate in your personal/commercial projects with any restrictions.
 > Attribution is not required but always appreciated.
 > 
-> ❌ Don't sell, publish or distribute as yours without modifying it, be creative. <sup>(referring to the hole project)</sup>
+> ❌ Don't sell, publish or distribute as yours without modifying it, be creative. _(referring to the hole project)_
 > 
 > 
 > 📜 <strong>License</strong> _(all other third party resources, technologies, languages, frameworks and libraries that i used)_
