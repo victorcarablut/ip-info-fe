@@ -12,7 +12,7 @@ React Js <sup>(v18)</sup>
 - D3.js <sup>(world map)</sup>
 
 IDE <sup>(i used)</sup>
-- Visual <strong>Studio<strong><small>Code</small>
+- Visual <strong>Studio</strong><small>Code</small>
 
 Browser <sup>(better experience)</sup>
 - Microsoft Edge
