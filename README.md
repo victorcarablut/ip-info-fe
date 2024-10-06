@@ -5,14 +5,14 @@
 
 ## Technologies
 
-React Js <sup>(v18)</sup>
+<strong>React Js</strong> <sup>(v18)</sup>
 - Vite
 - Axios
 - HTML, CSS, JS
 - D3.js <sup>(world map)</sup>
 
-IDE <sup>(i used)</sup>
-- Visual <strong>Studio</strong><small>Code</small>
+<strong>IDE</strong> <sup>(i used)</sup>
+- Visual Studio Code
 
 Browser <sup>(better experience)</sup>
 - Microsoft Edge
