@@ -11,10 +11,10 @@ React Js <sup>(v18)</sup>
 - HTML, CSS, JS
 - D3.js <sup>(world map)</sup>
 
-IDE <sub>(i used)</sub>
-- Visual Studio Code
+IDE <sup>(i used)</sup>
+- Visual <strong>Studio<strong><small>Code</small>
 
-Browser <sub>(better experience)</sub>
+Browser <sup>(better experience)</sup>
 - Microsoft Edge
 - Google Chrome
 
@@ -24,7 +24,7 @@ Other
 ## Getting started
 
 > [!IMPORTANT]
-> create `.env` file in main folder <sub>(outside src)</sub>
+> create `.env` file in main folder <sup>(outside src)</sup>
 > ```
 > CI=false
 > GENERATE_SOURCEMAP=false
