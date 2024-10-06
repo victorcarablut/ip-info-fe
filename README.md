@@ -5,7 +5,7 @@
 
 ## Technologies
 
-<strong>React Js</strong> <sup>(v18)</sup>
+<strong>React Js</strong> <sup>v18</sup>
 - Vite
 - Axios
 - HTML, CSS, JS
@@ -14,11 +14,11 @@
 <strong>IDE</strong> <sup>(i used)</sup>
 - Visual Studio Code
 
-Browser <sup>(better experience)</sup>
+<strong>Browser</strong> <sup>(better experience)</sup>
 - Microsoft Edge
 - Google Chrome
 
-Other
+<strong>Other</strong>
 - https://geojson-maps.kyd.au
 
 ## Getting started
@@ -44,7 +44,7 @@ Other
 > 
 > 🌐 [code.victorcarablut.com](https://code.victorcarablut.com)
 > 
-> 📜 License _(my own source code)_
+> 📜 <strong>License</strong> _(my own source code)_
 > 
 > ✔️ Free to use, copy, modify and share.
 > Copying part of source code is allowed and you're free to integrate in your personal/commercial projects with any restrictions.
@@ -53,7 +53,7 @@ Other
 > ❌ Don't sell, publish or distribute as yours without modifying it, be creative. <sup>(referring to the hole project)</sup>
 > 
 > 
-> 📜 License _(all other third party resources, technologies, languages, frameworks and libraries that i used)_
+> 📜 <strong>License</strong> _(all other third party resources, technologies, languages, frameworks and libraries that i used)_
 > 
 > ⚠️ Please verify their own respective license, terms and conditions.
 
