@@ -9,7 +9,7 @@ React Js <sup>(v18)</sup>
 - Vite
 - Axios
 - HTML, CSS, JS
-- D3.js (world map)
+- D3.js <sup>(world map)</sup>
 
 IDE <sup>_(i used)_</sup>
 - Visual Studio Code
@@ -35,7 +35,7 @@ Other
 > 
 > `npm install` <sup>_(skip if you already did it)_</sup>
 > 
-> `npm run dev` <sup>_(running locally)_</sup>
+> `npm run dev` <sup>_(running locally)_<sup>
 > 
 > Local: http://localhost:5173
 
@@ -44,7 +44,7 @@ Other
 > 
 > 🌐 [code.victorcarablut.com](https://code.victorcarablut.com)
 > 
-> 📜 License <sup>_(my own source code)_</sup>
+> 📜 License _(my own source code)_
 > 
 > ✔️ Free to use, copy, modify and share.
 > Copying part of source code is allowed and you're free to integrate in your personal/commercial projects with any restrictions.
@@ -53,7 +53,7 @@ Other
 > ❌ Don't sell, publish or distribute as yours without modifying it, be creative. <sup>_(referring to the hole project)_</sup>
 > 
 > 
-> 📜 License <sup>_(all other third party resources, technologies, languages, frameworks and libraries that i used)_</sup>
+> 📜 License _(all other third party resources, technologies, languages, frameworks and libraries that i used)_
 > 
 > ⚠️ Please verify their own respective license, terms and conditions.
 
