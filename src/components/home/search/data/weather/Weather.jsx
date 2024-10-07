@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { url } from '../../../../../config';
 import './weather.css';
+import WeatherIcon from './WeatherIcon';
 
 export default function Weather({ lat, lon }) {
 
@@ -56,9 +57,9 @@ export default function Weather({ lat, lon }) {
                         <div className="data2">
                             <p><b>{tempCelsius}</b><sup>°C</sup> | <b>{Math.trunc(tempFahrenheit)}</b><sup>°F</sup></p>
                             <p><span>{description}</span></p>
+                            <p><span>{icon.includes("d") ? "day" : "night"}</span></p>
                         </div>
-                        <img width={70} src={'./src/assets/images/weather/' + icon + '.png'} />
-                        <p><span>{icon.includes("d") ? "day" : "night"}</span></p>
+                        <WeatherIcon icon={icon} />
                 </div>
             }
         </li>
