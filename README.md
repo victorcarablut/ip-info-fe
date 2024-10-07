@@ -44,7 +44,7 @@
 > 
 > 🌐 [code.victorcarablut.com](https://code.victorcarablut.com)
 
-> > [!NOTE]
+> [!NOTE]
 > 📜 <strong>License</strong> _(my own source code)_
 > 
 > ✔️ Free to use, copy, modify and share.
