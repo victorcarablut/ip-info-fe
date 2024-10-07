@@ -43,6 +43,8 @@
 > 📄 It's just a demo project.
 > 
 > 🌐 [code.victorcarablut.com](https://code.victorcarablut.com)
+> 
+> 💡Suggestion to improve the project are accepted. ✉️ <a href="mailto:contact@ip-info-demo.victorcarablut.com">Send Email</a>
 
 > [!NOTE]
 > 📜 <strong>License</strong> _(my own source code)_
@@ -53,15 +55,12 @@
 > 
 > ❌ Don't sell, publish or distribute as yours without modifying it, be creative. _(referring to the hole project)_
 > 
-> 
 > 📜 <strong>License</strong> _(all other third party resources, technologies, languages, frameworks and libraries that i used)_
 > 
 > ⚠️ Please verify their own respective license, terms and conditions.
 
 > [!WARNING]
 > I'm always looking for best practices solutions but still learning so please keep in mind that the project is provided as it is without any warranty and there might be bugs or incorrect way to write code in terms of security.
-> 
-> 💡Suggestion to improve the project are accepted. ✉️ <a href="mailto:contact@ip-info-demo.victorcarablut.com">Send Email</a>
 
 ## React + Vite
 
