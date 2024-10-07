@@ -1,4 +1,4 @@
-<img alt="img" src="https://code.victorcarablut.com/wp-content/uploads/2024/10/screenshot-ip-info-img05.png" width="100%" />
+<img alt="img" src="https://code.victorcarablut.com/wp-content/uploads/2024/10/screenshot-ip-info-img06.png" width="100%" />
 <p align="right">⭐ <a href="https://ip-info-demo.victorcarablut.com">Live Demo</p>
 
 ### This is `frontend`  . . . go to [backend](https://github.com/victorcarablut/ip-info-be)
