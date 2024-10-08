@@ -1,4 +1,4 @@
-<img alt="img" src="https://code.victorcarablut.com/wp-content/uploads/2024/10/screenshot-ip-info-img06.png" width="100%" />
+<img alt="img" src="https://code.victorcarablut.com/wp-content/uploads/2024/10/screenshot-ip-info-img07.png" width="100%" />
 <p align="right">⭐ <a href="https://ip-info-demo.victorcarablut.com">Live Demo</p>
 
 ### This is `frontend`  . . . go to [backend](https://github.com/victorcarablut/ip-info-be)
@@ -68,10 +68,3 @@ Read more on: [https://vite.dev/guide](https://vite.dev/guide)
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
----
-
-![GitHub stars](https://img.shields.io/github/stars/victorcarablut/ip-info-fe?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/victorcarablut/ip-info-fe?style=social)
-![GitHub repo size](https://img.shields.io/github/repo-size/victorcarablut/ip-info-fe)
-![GitHub last commit](https://img.shields.io/github/last-commit/victorcarablut/ip-info-fe)
