@@ -1,9 +1,5 @@
 /* ----- Index Style CSS ----- */
 
-:root {
-  --body-text-color: #d0c6f7;
-}
-
 /* Main Font */
 @font-face {
   font-family: Montserrat;
@@ -18,11 +14,11 @@
 
 body {
   background-image: linear-gradient(to right bottom, #201b27, #221f2b, #242330, #262734, #282b38, #2a2d39, #2d2e3b, #2f303c, #32303b, #342f3a, #362f38, #372f37);
-  height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
   font-family: 'Montserrat', sans-serif;
   color: var(--body-text-color);
   /* better experience with world map "zoomed" disabling horizontal scroll: (overflow-x: hidden;) */

@@ -4,6 +4,7 @@ import useResizeObserver from "./useResizeObserver";
 import zoomable from 'd3-zoomable';
 import geoData from "../../../assets/custom_geo_file/geo_medium.json"; // medium resolution 50m
 import './world-map.css';
+import Footer from '../../footer/Footer';
 
 export default function WorldMap({ worldMapData }) {
 
@@ -130,8 +131,7 @@ export default function WorldMap({ worldMapData }) {
 
       <div className="cursor">
         <h6 id="cursor-text"></h6>
-      </div>
-      
+      </div>     
     </div>
   )
 }

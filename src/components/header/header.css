@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 10px;
 }
 
 .logo-container-link {
@@ -22,7 +22,7 @@ header {
 }
 
 .logo-text>h2 {
-    background: linear-gradient(to right, #c300ff, #244bf7, #6384ff, #a362ff, #dd00ff);
+    background-image: linear-gradient(to right, #c300ff, #244bf7, #6384ff, #a362ff, #dd00ff);
     background-clip: text;
     background-size: 500% 100%;
     color: transparent;

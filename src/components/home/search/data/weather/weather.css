@@ -22,11 +22,11 @@
 }
 
 .weather>.data1>p>span {
-    color: rgb(76, 198, 143);
+    color: var(--data-text-color);
 }
 
 .weather>.data2>p>span {
-    color: rgb(76, 198, 143);
+    color: var(--data-text-color);
 }
 
 .weather>img {

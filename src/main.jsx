@@ -3,6 +3,7 @@ import App from './App.jsx';
 
 // Global Index Style CSS
 import './assets/css/index.css';
+import './assets/css/root.css';
 
 // Custom Scrollbar CSS
 import './assets/css/scrollbar.css';

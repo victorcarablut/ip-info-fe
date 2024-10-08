@@ -1,0 +1,13 @@
+:root {
+    --body-text-color: #d0c6f7;
+
+    /* button, toggle switch */
+    --button-background-color: #574b90;
+    --button-background-color-hover: #6c5eb4;
+    --button-background-color-active: #6c5eb4;
+    --button-active-box-shadow: 0px 0px 25px 5px #443491;
+
+    /* data respnse, input */
+    --data-text-color: rgb(76, 198, 143);
+  }
+  
