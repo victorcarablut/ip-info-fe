@@ -31,13 +31,13 @@ export default function Weather({ lat, lon }) {
         await axios.post(`${url}/weather/info`, data).then((res) => {
 
             if (res.status === 200) {
-                setTempCelsius(Math.trunc(res.data.main.temp))
-                setTempFahrenheit((Math.trunc(res.data.main.temp) * 9/5) +32)
+                setTempCelsius(Math.round(res.data.main.temp))
+                setTempFahrenheit((Math.round(res.data.main.temp) * 9/5) + 32)
                 setDescription(res.data.weather[0].description)
                 setIcon(res.data.weather[0].icon)
                 setHumidity(res.data.main.humidity)
-                setWindSpeedKPH(res.data.wind.speed)
-                setWindSpeedMPH(Math.round(res.data.wind.speed)/1.609344)
+                setWindSpeedKPH(Math.round(res.data.wind.speed))
+                setWindSpeedMPH(Math.round(Math.round(res.data.wind.speed)/1.609344))
             }
 
         }).catch(err => {
@@ -51,8 +51,8 @@ export default function Weather({ lat, lon }) {
                 <div className={"weather "+ (icon.includes("d") ? "w-day" : "w-night")}>
                       <div className="data1">
                             <p><i className="bi bi-moisture"/><span>{humidity}%</span></p>
-                            <p><i className="bi bi-wind"/><span>{Math.round(windSpeedKPH)}km/h</span></p>
-                            <p><i className="bi bi-wind"/><span>{Math.round(windSpeedMPH)}mph</span></p>
+                            <p><i className="bi bi-wind"/><span>{windSpeedKPH}km/h</span></p>
+                            <p><i className="bi bi-wind"/><span>{windSpeedMPH}mph</span></p>
                         </div>
                         <div className="data2">
                             <p><b>{tempCelsius}</b><sup>°C</sup> | <b>{Math.trunc(tempFahrenheit)}</b><sup>°F</sup></p>
