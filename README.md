@@ -20,6 +20,8 @@
 
 <strong>Other</strong>
 - https://geojson-maps.kyd.au
+- https://jsonip.com
+- https://www.ipify.org
 
 ## Getting started
 
