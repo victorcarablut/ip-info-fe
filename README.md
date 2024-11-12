@@ -5,7 +5,7 @@
 
 ## Technologies
 
-<strong>React Js</strong> <sup>v18</sup>
+<strong>React JS</strong> <sup>v18</sup>
 - Vite
 - Axios
 - HTML, CSS, JS
