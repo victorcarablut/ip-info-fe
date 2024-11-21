@@ -8,7 +8,13 @@ import PageNotFound from './components/other/PageNotFound';
 export default function App() {
   return (
     <div>
-      <Router>
+      <Router
+        // WARNING FIX: React Router will begin wrapping state updates in `React.startTransition` in v7
+        future={{
+          v7_startTransition: true,
+          v7_relativeSplatPath: true,
+        }}
+      >
         <Header />
         <main>
           <Routes>
